@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+
+    <style>
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+header {
+    background-color:grey;
+    padding:3rem;
+    text-align:center;
+    font-size:3rem;
+}
+
+nav {
+    background-color:darkgrey;
+}
+
+nav ul {
+    list-style-type:none;
+    text-align:center;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+nav li {
+    display:inline-block;
+}
+
+nav a {
+    display:block;
+    color:black;
+    padding:2rem;
+    font-size:3rem;
+    text-decoration:none;
+}
+
+nav a:hover {
+    background-color:grey;
+}
+
+main {
+    background-color:dodgerblue;
+    padding:3rem;
+    width:50%;
+    height:20rem;
+    font-size:3rem;
+    float:left;
+    text-align:center;
+}
+
+main h2 {
+    vertical-align:middle;
+}
+
+section {
+    background-color:darkkhaki;
+    padding:3rem;
+    width:50%;
+    height:40rem;
+    font-size:5rem;
+    float:right;
+    text-align:center;
+}
+
+section h2 {
+     vertical-align: bottom;
+}
+
+article {
+    background-color:beige;
+    padding:3rem;
+    width:50%;
+    height:20rem;
+    font-size:3rem;
+    float:left;
+    text-align:center;
+}
+
+article h2 {
+    vertical-align: middle;
+}
+
+contaner:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+footer {
+    background-color:lavender;
+    padding:3rem;
+    text-align:center;
+    font-size:3rem;
+}
+
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>Header</h2>
+</header>
+
+<contaner>
+<nav>
+    <ul>
+        <li><a href="#">breakfast</a></li>
+        <li><a href="#">lunch</a></li>
+        <li><a href="#">dinner</a></li>
+    </ul>
+</nav>
+
+<main><h2>main-left</h2></main>
+
+<section><h2>section-right</h2></section>
+
+<article><h2>article-bottom</h2></article>
+</contaner>
+
+<footer>footer</footer>
+
+</body>
+</html>
